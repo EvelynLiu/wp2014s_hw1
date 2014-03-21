@@ -1,3 +1,298 @@
 body{
-	background:url(http://subtlepatterns.com/patterns/food.png);
+	background:url(http://subtlepatterns.com/patterns/geometry.png);
+}
+a{
+	text-decoration:none;
+}
+a:link{
+	color:black;
+}
+a:visited{
+	color:black;
+}
+a:hover{
+	color:purple;
+}
+.wrapper{
+	width:920px;
+	margin:0px auto;
+	padding:1em;
+	position:relative;
+	/*z-index:-100*/
+}
+.header_pic{
+	display:inline-block;
+	margin:0 0 0 2em;
+}
+.header_info{
+	display:inline-block;
+	margin:3em 0em;
+	float:right;
+}
+.header_info:after{
+	clear:both;
+}
+nav{
+	margin-top:5em;
+	margin-bottom:30em;
+}
+nav ul{
+	list-style-type:none;
+}
+nav li{
+	display:inline-block;
+	text-align:center;
+	line-height:25px;
+	width:auto;
+	height:25px;
+	float:left;
+}
+nav li:after{
+	clear:both;
+}
+nav li:nth-child(odd){
+	background-color:pink;
+}
+nav li:nth-child(even){
+	background-color:#FFFF66;
+}
+.nav_img{
+	display:inline;
+	padding:0px;
+	margin:0px auto;
+	height:280px;
+}
+.nav_up{
+	width:16.3%;
+}
+.nav_down{
+	width:24.45%;
+}
+article{
+	height: 1100px;
+}
+.news{
+	float:left;
+}
+.news ul{
+	margin-top:1em;
+	font-size:0.5em;
+	list-style-type:none;
+}
+.news .Join1{
+	float: left;
+	width: 400px;
+	margin-top:0.8em;
+	position: absolute;
+	padding: 1em 0 0 1em;
+}
+.news .Join2{
+	float: right;
+	margin-top:0.8em;
+	padding: 1.8em 0.8em 0 0;
+}
+.news h2{
+	margin:5em 0 1em 1.5em;
+}
+.video {
+	float:right;
+	margin-right:0px;
+}
+.video iframe{
+	display:block;
+	margin:1em auto;
+	padding:0.8em 0 0 0;
+	border:0;
+}
+.video p{
+	display:inline;
+	margin:0 0 0 11em;
+}
+.breakline img{
+	width: 900px;
+	height: 100px;
+}
+.fee h2, .map h2{
+	margin:1em 0 1em 1.5em;
+}
+.fee table{
+	margin:2em auto;
+	height: 130px;
+}
+.fee table, .fee p{
+	width:780px;
+	margin-right:auto;
+	margin-left:auto;
+	font-size:0.7em;
+}
+.fee p{
+	margin-top:3em;
+}
+.map{
+	margin-top: 20em;
+}
+.map img{
+	margin-left:5em;
+	margin-right:4em;
+	width:450px;
+	height:200px;
+}
+.map .rider{
+	height:150px;
+	width:150px;
+}
+.contact{
+	margin-top:2em;
+}
+.contact a{
+	float:right;
+	margin-right: 0.5em;
+}
+.box {
+  position: relative;
+  margin:0em;
+  width: 450px;
+  height: 330px;
+  background-color: #fff;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.25), 0 0 50px rgba(0,0,0,0.1) inset;
+  border-radius: 15%     15%     15%     15% /     2%     2%     2%     2%;
+}
+.box:before {
+    position: absolute;
+    z-index: -1;
+    content: "";
+    top: 0px;
+    right: 0px;
+    width: 15%;
+    height: 15%;
+    border-radius: 0 20% 0 0;
+    box-shadow: 10px -10px 10px rgba(0,0,0,0.5);
+    -webkit-transform: rotate(2deg) translate(-14px,20px) skew(-20deg);
+     -moz-transform: rotate(2deg) translate(-14px,20px) skew(-20deg);
+     -ms-transform: rotate(2deg) translate(-14px,20px) skew(-20deg);
+     -o-transform: rotate(2deg) translate(-14px,20px) skew(-20deg);
+     transform: rotate(2deg) translate(-14px,20px) skew(-20deg);
+    }
+.box:after {
+    position: absolute;
+    z-index: -1;
+    content: "";
+    top: 0px;
+    left: 0px;
+    width: 15%;
+    height: 15%;
+    border-radius: 20% 0 0 0;
+    box-shadow: -10px -10px 10px rgba(0,0,0,0.5);
+    -webkit-transform: rotate(2deg) translate(14px,20px) skew(20deg);
+     -moz-transform: rotate(2deg) translate(14px,20px) skew(20deg);
+     -ms-transform: rotate(2deg) translate(14px,20px) skew(20deg);
+     -o-transform: rotate(2deg) translate(14px,20px) skew(20deg);
+     transform: rotate(2deg) translate(14px,20px) skew(20deg);
+    }
+.box2 {
+	  position: absolute;
+	  width: 920px;
+	  height: 300px;
+	  background-color: #fff;
+	  box-shadow: 0 1px 5px rgba(0,0,0,0.25), 0 0 50px rgba(0,0,0,0.1) inset;
+	  border-radius: 1%     1%     1%     1% /     1%     1%     1%     1%;
+}
+.CSSTableGenerator {
+	margin:0px;padding:0px;
+	width:100%;
+	box-shadow: 10px 10px 5px #888888;
+	border:1px solid #ffffff;
+	
+	-moz-border-radius-bottomleft:4px;
+	-webkit-border-bottom-left-radius:4px;
+	border-bottom-left-radius:4px;
+	
+	-moz-border-radius-bottomright:4px;
+	-webkit-border-bottom-right-radius:4px;
+	border-bottom-right-radius:4px;
+	
+	-moz-border-radius-topright:4px;
+	-webkit-border-top-right-radius:4px;
+	border-top-right-radius:4px;
+	
+	-moz-border-radius-topleft:4px;
+	-webkit-border-top-left-radius:4px;
+	border-top-left-radius:4px;
+}.CSSTableGenerator table{
+    border-collapse: collapse;
+        border-spacing: 0;
+	width:100%;
+	height:100%;
+	margin:0px;padding:0px;
+}.CSSTableGenerator tr:last-child td:last-child {
+	-moz-border-radius-bottomright:4px;
+	-webkit-border-bottom-right-radius:4px;
+	border-bottom-right-radius:4px;
+}
+.CSSTableGenerator table tr:first-child td:first-child {
+	-moz-border-radius-topleft:4px;
+	-webkit-border-top-left-radius:4px;
+	border-top-left-radius:4px;
+}
+.CSSTableGenerator table tr:first-child td:last-child {
+	-moz-border-radius-topright:4px;
+	-webkit-border-top-right-radius:4px;
+	border-top-right-radius:4px;
+}.CSSTableGenerator tr:last-child td:first-child{
+	-moz-border-radius-bottomleft:4px;
+	-webkit-border-bottom-left-radius:4px;
+	border-bottom-left-radius:4px;
+}.CSSTableGenerator tr:hover td{
+	
+}
+.CSSTableGenerator tr:nth-child(odd){ background-color:#ffd4aa; }
+.CSSTableGenerator tr:nth-child(even)    { background-color:#e5e5e5; }.CSSTableGenerator td{
+	vertical-align:middle;
+	
+	
+	border:1px solid #ffffff;
+	border-width:0px 1px 1px 0px;
+	text-align:center;
+	padding:9px;
+	font-size:10px;
+	font-family:Arial;
+	font-weight:normal;
+	color:#000000;
+}.CSSTableGenerator tr:last-child td{
+	border-width:0px 1px 0px 0px;
+}.CSSTableGenerator tr td:last-child{
+	border-width:0px 0px 1px 0px;
+}.CSSTableGenerator tr:last-child td:last-child{
+	border-width:0px 0px 0px 0px;
+}
+.CSSTableGenerator tr:first-child td{
+		background:-o-linear-gradient(bottom, #ff5656 5%, #ffaa56 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ff5656), color-stop(1, #ffaa56) );
+	background:-moz-linear-gradient( center top, #ff5656 5%, #ffaa56 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff5656", endColorstr="#ffaa56");	background: -o-linear-gradient(top,#ff5656,ffaa56);
+
+	background-color:#ff5656;
+	border:0px solid #ffffff;
+	text-align:center;
+	border-width:0px 0px 1px 1px;
+	font-size:14px;
+	font-family:Arial;
+	font-weight:bold;
+	color:#ffffff;
+}
+.CSSTableGenerator tr:first-child:hover td{
+	background:-o-linear-gradient(bottom, #ff5656 5%, #ffaa56 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ff5656), color-stop(1, #ffaa56) );
+	background:-moz-linear-gradient( center top, #ff5656 5%, #ffaa56 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff5656", endColorstr="#ffaa56");	background: -o-linear-gradient(top,#ff5656,ffaa56);
+
+	background-color:#ff5656;
+}
+.CSSTableGenerator tr:first-child td:first-child{
+	border-width:0px 0px 1px 0px;
+}
+.CSSTableGenerator tr:first-child td:last-child{
+	border-width:0px 0px 1px 1px;
+}
+footer{
+	font-size:0.8em;
+	text-align:center;
 }
